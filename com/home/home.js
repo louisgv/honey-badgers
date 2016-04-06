@@ -95,8 +95,8 @@ function HomeCtrl($http, $ionicLoading, geolocation, NgMap, $ionicSlideBoxDelega
     });
 
     // $http.get(yelpAPI)
-    $http.get(`http://localhost:1314/nbw/${lat}/${lng}`)
-    // $http.get(`https://eo.mybluemix.net/nb/${lat}/${lng}/${r}`)
+    // $http.get(`http://localhost:1314/nbw/${lat}/${lng}`)
+    $http.get(`https://eo.mybluemix.net/nbw/${lat}/${lng}`)
       .success(function (data) {
 
         console.log(data);
