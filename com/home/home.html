@@ -86,10 +86,11 @@
             <!-- <a ng-href="https://maps.google.com/?saddr={{home.map.center}}&daddr={{home.locationString(biz.location.coordinate)}}&dirflg=w" class="waves-effect waves-light button button-balanced icon ion-ios-location" target="_blank">
             </a> -->
 
-            <ng-map center="{{home.locationString(biz.location.coordinate)}}" disable-default-u-i="true" zoom="16" disable-double-click-zoom="true" draggable="false">
+            <ng-map center="{{home.locationString(biz.location.coordinate)}}" disable-default-u-i="true" zoom="17" disable-double-click-zoom="true" draggable="false">
               <marker position="{{home.locationString(biz.location.coordinate)}}" optimized="true" icon="{
                 url:'assets/img/weed.png'
-              }" draggable="false"></marker>
+              }" draggable="false">
+              </marker>
 
               <!-- <directions draggable="true" travel-mode="WALKING" origin="{{origin}}" destination="{{destination}}">
               </directions> -->
