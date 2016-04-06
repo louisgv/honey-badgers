@@ -1,0 +1,271 @@
+{
+  "region": {
+    "span": {
+      "latitude_delta": 0.01809378999999467,
+      "longitude_delta": 0.016920970000001034
+    },
+    "center": {
+      "latitude": 47.60967215,
+      "longitude": -122.12378795000001
+    }
+  },
+  "total": 4,
+  "businesses": [
+    {
+      "is_claimed": false,
+      "rating": 3,
+      "mobile_url": "http://m.yelp.com/biz/cold-stone-creamery-bellevue-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "rating_img_url": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/34bc8086841c/ico/stars/v1/stars_3.png",
+      "review_count": 33,
+      "name": "Cold Stone Creamery",
+      "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/ve-s-fiOU6MVeB4Et2ceaw/ms.jpg",
+      "rating_img_url_small": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/902abeed0983/ico/stars/v1/stars_small_3.png",
+      "url": "http://www.yelp.com/biz/cold-stone-creamery-bellevue-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "categories": [
+        [
+          "Ice Cream & Frozen Yogurt",
+          "icecream"
+        ]
+      ],
+      "menu_date_updated": 1442352330,
+      "phone": "4259570333",
+      "snippet_text": "Had a peanut butter milkshake and a fudge/ vanilla sundae. The milkshake was very flavorful and the sundae was average. Service was friendly and...",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/bZ0_eY96SLHOMqx9EzFbHw/ms.jpg",
+      "location": {
+        "cross_streets": "S 159th Pl & S 156th Ave",
+        "city": "Bellevue",
+        "display_address": [
+          "15600 N.E. 8th, Suite J-2",
+          "Bellevue, WA 98008"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "98008",
+        "country_code": "US",
+        "address": [
+          "15600 N.E. 8th, Suite J-2"
+        ],
+        "coordinate": {
+          "latitude": 47.6174087524414,
+          "longitude": -122.131843566895
+        },
+        "state_code": "WA"
+      },
+      "display_phone": "+1-425-957-0333",
+      "rating_img_url_large": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/e8b5b79d37ed/ico/stars/v1/stars_large_3.png",
+      "menu_provider": "single_platform",
+      "id": "cold-stone-creamery-bellevue-2",
+      "is_closed": false,
+      "distance": 1285.5124489779785,
+      "$$hashKey": "object:21"
+    },
+    {
+      "rating": 4,
+      "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+      "display_phone": "+1-425-649-2171",
+      "gift_certificates": [
+        {
+          "url": "http://www.yelp.com/gift-certificates/old-country-bakery-bellevue?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+          "unused_balances": "CREDIT",
+          "options": [
+            {
+              "price": 1000,
+              "formatted_price": "$10"
+            },
+            {
+              "price": 2500,
+              "formatted_price": "$25"
+            },
+            {
+              "price": 5000,
+              "formatted_price": "$50"
+            },
+            {
+              "price": 7500,
+              "formatted_price": "$75"
+            },
+            {
+              "price": 10000,
+              "formatted_price": "$100"
+            },
+            {
+              "price": 15000,
+              "formatted_price": "$150"
+            }
+          ],
+          "image_url": "http://s3-media1.fl.yelpcdn.com/bphoto/O49CdJ9oVy2TN0b15ED2yw/m.jpg",
+          "id": "Fr4MvEAol6KbBmnJPTsqBQ",
+          "currency_code": "USD"
+        }
+      ],
+      "id": "old-country-bakery-bellevue",
+      "is_closed": false,
+      "mobile_url": "http://m.yelp.com/biz/old-country-bakery-bellevue?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "review_count": 26,
+      "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/oznU7M1pTX8tFjU5H7cLoQ/ms.jpg",
+      "location": {
+        "cross_streets": "8th St",
+        "city": "Bellevue",
+        "display_address": [
+          "900 160th Ave NE",
+          "Ste 3",
+          "Bellevue, WA 98008"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "98008",
+        "country_code": "US",
+        "address": [
+          "900 160th Ave NE",
+          "Ste 3"
+        ],
+        "coordinate": {
+          "latitude": 47.6170896738768,
+          "longitude": -122.12809368968
+        },
+        "state_code": "WA"
+      },
+      "is_claimed": true,
+      "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+      "phone": "4256492171",
+      "snippet_text": "Pretty great bakery. Prices are especially reasonable with the yelp $5 for $10 check in deal. The cake was delicious but a little too rich. My complaint...",
+      "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+      "categories": [
+        [
+          "Bakeries",
+          "bakeries"
+        ],
+        [
+          "Desserts",
+          "desserts"
+        ]
+      ],
+      "distance": 1839.4664792682104,
+      "name": "Old Country Bakery",
+      "url": "http://www.yelp.com/biz/old-country-bakery-bellevue?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "deals": [
+        {
+          "is_popular": true,
+          "what_you_get": "You get a voucher redeemable for $10 at Old Country Bakery.\nPrint out your voucher, or redeem on your phone with the <a href=\"http://www.yelp.com/mobile?source=deal_marketing\">Yelp app</a>.",
+          "time_start": 1381029711,
+          "title": "$5 for $10",
+          "url": "http://www.yelp.com/deals/old-country-bakery-bellevue?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+          "additional_restrictions": "Promotion lasts for 1 year from date of purchase. After that period, your voucher is redeemable for the amount you paid, less any value you may have received. Not valid with other vouchers, certificates, or offers. Only 5 voucher(s) can be purchased and redeemed per person. Up to 10 can be purchased as gifts for others. Subject to the <a target=\"_blank\" href=\"http://www.yelp.com/tos/general_b2c_us_20120911\">General Terms</a>.",
+          "options": [
+            {
+              "original_price": 1000,
+              "title": "$5 for $10",
+              "price": 500,
+              "purchase_url": "https://www.yelp.com/checkout/deal/ffe0jLzS0wzpDAknMt6maw?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+              "formatted_original_price": "$10",
+              "formatted_price": "$5",
+              "is_quantity_limited": false
+            }
+          ],
+          "image_url": "https://s3-media1.fl.yelpcdn.com/dphoto/B6K3ciYqVuvITXoUWAXXng/m.jpg",
+          "id": "7TEk84Td1IDc2Sl4Smp3aQ",
+          "currency_code": "USD"
+        }
+      ],
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/hAFmCYA2C_x-i3tVyrfPWg/ms.jpg",
+      "menu_provider": "single_platform",
+      "menu_date_updated": 1455126388,
+      "$$hashKey": "object:22"
+    },
+    {
+      "is_claimed": true,
+      "rating": 4,
+      "mobile_url": "http://m.yelp.com/biz/peaks-frozen-yogurt-bar-bellevue?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+      "review_count": 90,
+      "name": "Peaks Frozen Yogurt Bar",
+      "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/OWghiI0QQxzoNsbCgkOIPw/ms.jpg",
+      "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+      "url": "http://www.yelp.com/biz/peaks-frozen-yogurt-bar-bellevue?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "categories": [
+        [
+          "Ice Cream & Frozen Yogurt",
+          "icecream"
+        ]
+      ],
+      "phone": "4256981302",
+      "snippet_text": "Couldn't leave yesterday without stopping by here. We considered skipping it but decided that would be unwise. I was praying for Dole pineapple whip but was...",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/D1w9zwUGlvPL_g2V1AdFoQ/ms.jpg",
+      "location": {
+        "cross_streets": "S 159th Pl & S 156th Ave",
+        "city": "Bellevue",
+        "display_address": [
+          "15600 NE 8th St",
+          "Ste 0-16",
+          "Bellevue, WA 98008"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "98008",
+        "country_code": "US",
+        "address": [
+          "15600 NE 8th St",
+          "Ste 0-16"
+        ],
+        "coordinate": {
+          "latitude": 47.6171265,
+          "longitude": -122.1321945
+        },
+        "state_code": "WA"
+      },
+      "display_phone": "+1-425-698-1302",
+      "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+      "id": "peaks-frozen-yogurt-bar-bellevue",
+      "is_closed": false,
+      "distance": 1841.2308043073808,
+      "$$hashKey": "object:23"
+    },
+    {
+      "is_claimed": true,
+      "rating": 5,
+      "mobile_url": "http://m.yelp.com/biz/ivywild-catering-east-wenatchee?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "rating_img_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png",
+      "review_count": 1,
+      "name": "Ivywild Catering",
+      "snippet_image_url": "https://s3-media4.fl.yelpcdn.com/assets/srv0/yelp_styleguide/cc4afe21892e/assets/img/default_avatars/user_medium_square.png",
+      "rating_img_url_small": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png",
+      "url": "http://www.yelp.com/biz/ivywild-catering-east-wenatchee?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=_0neSJ9_3MLweabbRqv_KA",
+      "categories": [
+        [
+          "Party & Event Planning",
+          "eventplanning"
+        ],
+        [
+          "Caterers",
+          "catering"
+        ]
+      ],
+      "phone": "5098889690",
+      "snippet_text": "Used Ivywild from a local restaurant referral for a post memorial service reception.  Though the occasion was somber it was made more comforting by...",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/ewt3_0RDxfSTJEwSoAQi1w/ms.jpg",
+      "location": {
+        "city": "East Wenatchee",
+        "display_address": [
+          "595 E Grant Rd",
+          "Ste 6",
+          "East Wenatchee, WA 98802"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "98802",
+        "country_code": "US",
+        "address": [
+          "595 E Grant Rd",
+          "Ste 6"
+        ],
+        "coordinate": {
+          "latitude": 47.406391,
+          "longitude": -120.280258
+        },
+        "state_code": "WA"
+      },
+      "display_phone": "+1-509-888-9690",
+      "rating_img_url_large": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png",
+      "id": "ivywild-catering-east-wenatchee",
+      "is_closed": false,
+      "distance": 140225.818732234,
+      "$$hashKey": "object:24"
+    }
+  ]
+}

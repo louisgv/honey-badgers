@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<ion-view class="home">
+  <ion-nav-title class="logo">
+    Tree.Reviews
+  </ion-nav-title>
+
+  <ion-content class="has-header has-footer app-bg">
+
+    <ion-slide-box on-slide-changed="slideHasChanged(index)" show-pager="false">
+      <ion-slide ng-repeat="biz in home.bizs track by $index">
+
+        <div class="card">
+
+          <div class="item" ng-class="home.classLabel[$index%home.classLabel.length]">
+          </div>
+
+          <div class="item item-thumbnail-left item-text-wrap">
+            <img ng-src="{{biz.image_url}}" alt="" />
+            <h2>
+              {{biz.name}}
+            </h2>
+            <hr>
+            <img ng-src="{{biz.rating_img_url}}" alt="" /> / {{biz.review_count}} reviews
+            <p>
+              <span ng-repeat="cat in biz.categories">
+                {{cat[0]}}
+              </span>
+            </p>
+          </div>
+
+          <div class="item item-icon-left row text-center">
+            <div class="col col-25">
+              <i class="icon ion-android-walk"></i>
+            </div>
+
+            <div class="col col-25">
+              {{biz.distance * 0.00062137121212121| number : 2}}
+              <br> miles
+            </div>
+            <div class="col col-25">
+              {{biz.distance/1.4/60/60*234 | number : 0 }}
+              <br> cals
+            </div>
+            <div class="col col-25">
+              {{biz.distance/1.4/60 | number : 0 }}
+              <br> mins
+            </div>
+          </div>
+
+
+          <div class="item item-avatar item-text-wrap">
+            <img ng-src="{{biz.snippet_image_url}}" alt="" />
+            <p>
+              {{biz.snippet_text | limitTo: 99}}...
+            </p>
+          </div>
+
+
+          <div class="item item-icon-left">
+            <i class="icon ion-ios-telephone-outline"></i>
+            <a ng-href="tel:{{biz.display_phone}}" class="waves-effect waves-light button button-balanced button-block">
+                        {{biz.display_phone}}
+                      </a>
+            <h6 class="text-center">(tap to call)</h6>
+          </div>
+
+          <div class="item item-icon-left">
+            <i class="icon ion-ios-world-outline"></i>
+            <a ng-href="{{biz.mobile_url}}" class="waves-effect waves-light button button-assertive button-block">
+                        Yelp Page
+                      </a>
+          </div>
+
+          <div class="item item-icon-left">
+            <i class="icon ion-ios-navigate-outline"></i>
+            <a ng-href="https://maps.google.com/?saddr={{home.map.center}}&daddr={{home.locationString(biz.location.coordinate)}}&dirflg=w" target="_blank" class="waves-effect waves-light button button-energized button-block">
+                        Navigate
+                      </a>
+          </div>
+
+          <!-- <div class="item" ng-class="home.classLabel[($index+2)%home.classLabel.length]">
+          </div> -->
+
+          <div class="item item-icon-left">
+            <i class="icon ion-ios-location-outline"></i>
+            <!-- <a ng-href="https://maps.google.com/?saddr={{home.map.center}}&daddr={{home.locationString(biz.location.coordinate)}}&dirflg=w" class="waves-effect waves-light button button-balanced icon ion-ios-location" target="_blank">
+            </a> -->
+
+            <ng-map center="{{home.locationString(biz.location.coordinate)}}" disable-default-u-i="true" zoom="17" disable-double-click-zoom="true" draggable="false">
+              <marker position="{{home.locationString(biz.location.coordinate)}}" optimized="true" icon="{
+                url:'http://orig05.deviantart.net/b95e/f/2010/064/9/5/_weed_avatar__by_stoner_times.gif'
+              }" draggable="false"></marker>
+
+              <!-- <directions draggable="true" travel-mode="WALKING" origin="{{origin}}" destination="{{destination}}">
+              </directions> -->
+            </ng-map>
+            <br>
+            <h3 class="text-center">
+              {{biz.location.display_address.join(' ')}}
+            </h3>
+          </div>
+
+        </div>
+
+      </ion-slide>
+    </ion-slide-box>
+
+
+  </ion-content>
+</ion-view>
+
+<ion-footer-bar align-title="center" class="app-bg home">
+
+  <div class="row">
+    <div class="col col-70">
+
+    </div>
+
+    <button class="button button-outline button-assertive col col-10" ng-click="home.refreshData()">
+      <i class="icon ion-refresh"></i>
+    </button>
+
+    <button class="button button-outline button-energized col col-10" ng-click="home.previousPlace()">
+      <i class="icon ion-chevron-left"></i>
+    </button>
+
+    <button class="button button-outline button-balanced col col-10" ng-click="home.nextPlace()">
+      <i class="icon ion-chevron-right"></i>
+    </button>
+
+  </div>
+
+</ion-footer-bar>
